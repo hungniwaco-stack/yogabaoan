@@ -574,12 +574,12 @@ ul {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid var(--glass-border);
-    padding: 1.5rem;
-    border-radius: 12px;
+    padding: 2.5rem 2rem;
+    border-radius: 16px;
     text-align: center;
     box-shadow: var(--shadow-lg);
     width: 100%;
-    max-width: 280px;
+    max-width: 420px;
 }
 
 .glass-card h3 {
