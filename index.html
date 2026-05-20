@@ -35,9 +35,9 @@
         <!-- Tạm sử dụng ảnh nền từ thư mục Anh, có thể CSS sẽ xử lý overlay -->
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <span class="subtitle">Chào mừng bạn đến với</span>
-            <h1>Khám Phá Sự Bình Yên<br> & Sức Khỏe Từ Bên Trong</h1>
-            <p>Trải nghiệm không gian Yoga tĩnh tại, nâng cao sức khỏe thể chất và tinh thần cùng các chuyên gia hàng đầu.</p>
+            <span class="subtitle">Đánh Thức Năng Lượng</span>
+            <h1>Cân Bằng Thân <br> & Tâm – Trí</h1>
+            <p>Không chỉ là nơi tập luyện, Yoga Bảo Ân là hành trình giúp bạn lắng nghe cơ thể, chữa lành tinh thần và tái tạo năng lượng tích cực mỗi ngày.</p>
             <div class="hero-actions">
                 <a href="#contact" class="btn-primary">Tham Gia Ngay</a>
                 <a href="#about" class="btn-secondary">Tìm Hiểu Thêm</a>
@@ -45,8 +45,40 @@
         </div>
     </header>
 
+    <!-- Problems Section -->
+    <section class="about" id="about" style="padding-bottom: 2rem;">
+        <div class="container">
+            <div class="section-header text-center" style="margin-bottom: 3rem;">
+                <span class="section-tag">Bạn Có Đang</span>
+                <h2>Gặp Phải Những <span class="highlight">Vấn Đề Này?</span></h2>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; text-align: center;">
+                <div class="glass-card" style="width: 100%; max-width: none; padding: 2rem 1.5rem; background: var(--bg-white); border: none; box-shadow: var(--shadow-sm);">
+                    <i class="ph ph-warning-circle" style="font-size: 2.5rem; color: var(--accent); margin-bottom: 1rem;"></i>
+                    <h4 style="margin-bottom: 0.5rem;">Đau Mỏi Xương Khớp</h4>
+                    <p style="font-size: 0.95rem; color: var(--text-muted);">Thường xuyên đau lưng, mỏi cổ vai gáy?</p>
+                </div>
+                <div class="glass-card" style="width: 100%; max-width: none; padding: 2rem 1.5rem; background: var(--bg-white); border: none; box-shadow: var(--shadow-sm);">
+                    <i class="ph ph-brain" style="font-size: 2.5rem; color: var(--accent); margin-bottom: 1rem;"></i>
+                    <h4 style="margin-bottom: 0.5rem;">Căng Thẳng, Mất Ngủ</h4>
+                    <p style="font-size: 0.95rem; color: var(--text-muted);">Áp lực công việc khiến bạn ngủ không sâu giấc?</p>
+                </div>
+                <div class="glass-card" style="width: 100%; max-width: none; padding: 2rem 1.5rem; background: var(--bg-white); border: none; box-shadow: var(--shadow-sm);">
+                    <i class="ph ph-battery-warning-vertical" style="font-size: 2.5rem; color: var(--accent); margin-bottom: 1rem;"></i>
+                    <h4 style="margin-bottom: 0.5rem;">Thiếu Năng Lượng</h4>
+                    <p style="font-size: 0.95rem; color: var(--text-muted);">Cảm thấy cơ thể uể oải, dễ mệt mỏi?</p>
+                </div>
+                <div class="glass-card" style="width: 100%; max-width: none; padding: 2rem 1.5rem; background: var(--bg-white); border: none; box-shadow: var(--shadow-sm);">
+                    <i class="ph ph-person" style="font-size: 2.5rem; color: var(--accent); margin-bottom: 1rem;"></i>
+                    <h4 style="margin-bottom: 0.5rem;">Vóc Dáng Chưa Chuẩn</h4>
+                    <p style="font-size: 0.95rem; color: var(--text-muted);">Mong muốn săn chắc nhưng không thích tập nặng?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- About Section -->
-    <section class="about" id="about">
+    <section class="about" style="padding-top: 2rem; background-color: var(--bg-white);">
         <div class="container">
             <div class="about-grid">
                 <div class="about-image">
@@ -54,24 +86,37 @@
                     <div class="image-accent"></div>
                 </div>
                 <div class="about-text">
-                    <span class="section-tag">Về Chúng Tôi</span>
-                    <h2>Trung Tâm Dạy Yoga <span class="highlight">Bảo Ân</span></h2>
-                    <p class="lead">Được sáng lập và dẫn dắt bởi Giám đốc <strong>Võ Ngọc Bảo Ân</strong>, trung tâm chúng tôi ra đời với sứ mệnh mang lại sự cân bằng hoàn hảo giữa thể chất và tâm hồn.</p>
-                    <p>Tại Yoga Bảo Ân, chúng tôi cung cấp đa dạng các lớp học phù hợp với mọi lứa tuổi và trình độ. Không gian thoáng đãng, yên tĩnh tại Phan Rang - Khánh Hòa sẽ giúp bạn gác lại những ồn ào của cuộc sống, tìm về với chính mình.</p>
+                    <span class="section-tag">Giải Pháp Hoàn Hảo</span>
+                    <h2>Hành Trình <span class="highlight">Thay Đổi</span></h2>
+                    <p class="lead">Dưới sự dẫn dắt của Giám đốc <strong>Võ Ngọc Bảo Ân</strong>, chỉ với vài buổi tập mỗi tuần, bạn sẽ cảm nhận rõ sự thay đổi:</p>
                     
-                    <div class="features">
+                    <div class="features" style="margin-top: 2rem;">
                         <div class="feature-item">
-                            <i class="ph ph-leaf"></i>
+                            <i class="ph ph-heart-beat"></i>
                             <div>
-                                <h4>Không gian thư giãn</h4>
-                                <p>Thiết kế hòa hợp với thiên nhiên</p>
+                                <h4>Cải Thiện Thể Chất</h4>
+                                <p>Cơ thể dẻo dai, cải thiện cột sống, săn chắc vóc dáng, giảm đau mỏi vai gáy hiệu quả.</p>
                             </div>
                         </div>
                         <div class="feature-item">
-                            <i class="ph ph-user-focus"></i>
+                            <i class="ph ph-lotus"></i>
                             <div>
-                                <h4>Giảng viên tận tâm</h4>
-                                <p>Đội ngũ chuyên nghiệp, hỗ trợ tối đa</p>
+                                <h4>Chữa Lành Tinh Thần</h4>
+                                <p>Giảm stress, tìm lại sự thư thái, ngủ ngon và sâu giấc hơn, tái tạo năng lượng tích cực.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="ph ph-star"></i>
+                            <div>
+                                <h4>Lợi Ích Dành Cho Phụ Nữ</h4>
+                                <p>Giữ dáng tự nhiên, làm đẹp da, cải thiện nội tiết tố và tăng sự tự tin, khí chất.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="ph ph-check-circle"></i>
+                            <div>
+                                <h4>Sự Khác Biệt Của Chúng Tôi</h4>
+                                <p>Giáo trình cá nhân hóa, huấn luyện tận tâm chỉnh từng động tác, không gian yên tĩnh thư giãn.</p>
                             </div>
                         </div>
                     </div>
